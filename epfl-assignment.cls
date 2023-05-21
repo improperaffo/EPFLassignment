@@ -12,12 +12,9 @@
 
 \RequirePackage[total={16cm,25cm},top=2cm]{geometry}
 
-\usepackage{siunitx}
-\usepackage{mathtools,amssymb,amsthm}
-\usepackage{mathtools}
-\usepackage{fancyhdr}
-\usepackage{hyperref}
-\usepackage[shortlabels]{enumitem}
+\usepackage{my_packages}
+
+\pgfplotsset{compat=1.18}
 
 \setlength{\headheight}{14.49998pt}
 \addtolength{\topmargin}{-2.49998pt}
@@ -43,7 +40,4 @@
 
     \noindent
     \rule{\textwidth}{0.1mm}
-
-    \bigskip
-    \bigskip
 }
